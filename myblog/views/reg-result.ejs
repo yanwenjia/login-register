@@ -1,0 +1,8 @@
+<%- include header %>
+   <h2><%= msg %></h2>
+   <% if(flag){ %>
+     <a href="/login"><button>登录</button></a>
+   <% }else{ %>
+     <a href="/reg"><button>重新注册</button></a>
+    <% } %>
+<%- include footer %>
